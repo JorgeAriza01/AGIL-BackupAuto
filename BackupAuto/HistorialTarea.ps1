@@ -1,0 +1,1 @@
+Get-WinEvent -LogName "Microsoft-Windows-TaskScheduler/Operational" | Where-Object {$_.Message -like "*BackupAuto*" -and $_.Id -eq 201} | Out-File -FilePath "D:\Projects\BackupAuto\Test_Area\BK1\Logs\BackupAutoEvents.txt" -Width 126

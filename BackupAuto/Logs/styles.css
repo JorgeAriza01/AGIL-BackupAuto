@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(0,10,69);
+    background: radial-gradient(circle, rgba(0,10,69,1) 0%, rgba(0,0,0,1) 73%);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el encabezado */
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+img {
+    width: 180px;
+    height: 95px;
+    display: block;
+    margin: 0 auto;
+}
